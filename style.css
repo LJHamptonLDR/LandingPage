@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(backgroundImage.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Nosifer';
+
+}
+
+.menu-bar {
+    background: rgba(0, 0, 0, 0.712);
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(176, 108, 221);
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(219, 208, 226);
+}
+
+.menu-bar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 3px;
+}
+
+ .container {
+    font-size: 50px;
+    height: 100;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin-top: -200;
+    text-align: center;
+    color: rgb(133, 60, 228);
+}
+
+div .container a {
+    display: flex;
+    flex-direction: column;
+    color:rgb(133, 60, 228);
+    /* border: rgba(0, 0, 0, 0.877); */
+    background-color:rgba(0, 0, 0, 0.712);
+    margin: 7px;
+    border-radius: 1px;
+    box-sizing: border-box;
+    padding: 2px;
+    font-size: 30px;
+
+}
+
+div h1 {
+    font-size: 60px;
+}
+
+div .container a:hover {
+    border: 1px rgba(0, 0, 0, 0.877);
+    background-color: rgba(255, 255, 255, 0.315);
+    color: rgb(99, 38, 140);
+}
